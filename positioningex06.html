@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Exercise 01</title>
+    <style>
+        #container,
+        div,
+        p {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        p {
+            display: inline-block;
+        }
+
+        .header {
+            background-color: aqua;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .main {
+            position: relative;
+            background-color: beige;
+        }
+
+        .footer {
+            background-color: rgb(185, 244, 244);
+            text-align: center;
+        }
+
+        .leftArticle {
+            background-color: rgb(207, 248, 248);
+            width: 200px;
+            text-align: justify;
+            position: absolute;
+            /* left: 10px; */
+            left: 1310px;
+            top: 10px;
+        }
+
+        .mainSection {
+            width: 1090px;
+            min-height: 400px;
+            text-align: justify;
+            position: relative;
+            left: 215px;
+            top: 10px;
+        }
+
+        .rightArticle {
+            background-color: rgb(220, 221, 221);
+            width: 200px;
+            text-align: justify;
+            position: absolute;
+            /* left: 1310px; */
+            left: 10px;
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">HEADER</div>
+        <div class="main">
+            <div class="leftArticle">LEFT ARTICLE Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolore
+                laborum quaerat, enim esse cupiditate amet, assumenda animi maiores totam officiis excepturi dolorum
+                aspernatur corporis accusamus laboriosam quae eveniet voluptate numquam eius. Porro corporis ea
+                distinctio aperiam, consequuntur, asperiores dolorem sapiente ducimus dolore voluptates dolorum aut
+                exercitationem consequatur. Quibusdam, est.</div>
+            <div class="mainSection">
+                <p>
+                    MAIN SECTION p1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    repudiandae consequatur, nostrum illo, possimus deserunt sunt fugiat aut distinctio nam aliquam
+                    repellat! Illum
+                    et quae commodi cupiditate neque iure voluptate illo iusto quod inventore! Exercitationem a
+                    voluptatem
+                    ex sequi incidunt harum provident velit unde dolorum, quibusdam ut reiciendis laudantium doloremque
+                    porroquod possimus distinctio cum adipisci blanditiis, quos veritatis voluptas est eius dolores!
+                    Odio,
+                    et!Eveniet at laborum sunt. Accusantium sapiente reprehenderit voluptatibus inventore similique,
+                    explicabomagnam! Debitis culpa perspiciatis, saepe dolores sint, nulla enim consequatur ab nihil
+                    architecto
+                    illumquia, repellendus quisquam aut illo et? Omnis voluptas, blanditiis dignissimos vero inventore
+                    delectus necessitatibus recusandae, quod in possimus ipsum aut corporis quibusdam, aspernatur vel
+                    aperiam! Ad
+                    ipsa dolore ipsum, quis quisquam nisi iste aut ab quas doloribus repellat architecto cumque libero
+                    dolorem blanditiis id tempore recusandae. Labore, natus quam iste iure earum, aliquam minima quidem
+                    inventore dolor eaque corrupti vero quisquam? Natus qui mollitia velit, voluptatem deleniti enim
+                    suscipit, facilis exercitationem rerum blanditiis ab dignissimos, ducimus hic aliquid vel. Beatae
+                    odit
+                    labore recusandae pariatur, animi commodi eos accusamus! A, explicabo? Nostrum nesciunt neque
+                    laboriosam, temporibus impedit nemo enim pariatur nobis laudantium soluta velit quaerat doloremque
+                    magnam odio reiciendis totam in.
+                </p>
+                <p>
+                    MAIN SECTION p2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    repudiandae consequatur, nostrum illo, possimus deserunt sunt fugiat aut distinctio nam aliquam
+                    repellat! Illum
+                    et quae commodi cupiditate neque iure voluptate illo iusto quod inventore! Exercitationem a
+                    voluptatem
+                    ex sequi incidunt harum provident velit unde dolorum, quibusdam ut reiciendis laudantium doloremque
+                    porroquod possimus distinctio cum adipisci blanditiis, quos veritatis voluptas est eius dolores!
+                    Odio,
+                    et!Eveniet at laborum sunt. Accusantium sapiente reprehenderit voluptatibus inventore similique,
+                    explicabomagnam! Debitis culpa perspiciatis, saepe dolores sint, nulla enim consequatur ab nihil
+                    architecto
+                </p>
+            </div>
+            <div class="rightArticle">RIGHT ARTICLE Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolore
+                laborum quaerat, enim esse cupiditate amet, assumenda animi maiores totam officiis excepturi dolorum
+                aspernatur corporis accusamus laboriosam quae eveniet voluptate numquam eius. Porro corporis ea
+                distinctio aperiam, consequuntur, asperiores dolorem sapiente ducimus dolore voluptates dolorum aut
+                exercitationem consequatur. Quibusdam, est.</div>
+        </div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+
+</html>
